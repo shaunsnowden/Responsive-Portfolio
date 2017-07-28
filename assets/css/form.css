@@ -1,0 +1,187 @@
+input {
+	width:93%;
+	padding: 10pt;
+	margin: 10pt 10pt 10pt 20pt;
+	box-sizing: border-box;
+}
+
+label {
+	margin: 10pt 0 0 20pt;
+}
+
+h2 {
+	margin-bottom: 20pt;
+}
+
+input:focus{
+	border: 3pt solid #555;
+}
+
+textarea{
+	width:93%;
+	padding: 10pt;
+	margin: 10pt 10pt 10pt 20pt;
+	box-sizing: border-box;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	height: 100pt;
+	max-width: 600pt;
+	max-height:150pt;
+}
+
+input[type=button] {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: white;
+	background-color: #4aaaa5;
+	width: 100pt;
+	font-size: 14pt;
+	margin: 20pt;
+}
+
+.banner {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	width: 300px;
+	position: relative;
+	/*top: -70pt;*/
+	/*left: 20pt;*/
+	font-size: 14pt;
+	padding: 10pt 0 10pt 0;
+	top: -70pt;
+	opacity:.93;
+}
+
+.container {
+	margin: 20pt;
+	float: left;
+}
+
+/*MEDIA SCREEN QUERIES*/
+@media screen and (max-width:980px) {
+	body{
+		width:980px;
+		height: 1000pt;
+	}
+	#Section1 {
+		width: 504px;
+	}
+	img, a.linkedTiles, .banner {
+		width: 450px;
+	}
+
+	#Section2 {
+		width: 242px;
+	}
+	.container {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 490px;
+		height: 350px;
+	}
+	#Image {
+		height: 450px;
+		margin-top: 0;
+		margin-bottom: 10pt;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	body{
+		width:768px;
+		height: 700pt;
+	}
+
+	#Section1 {
+		width: 660px;
+		margin-bottom: 0;
+	}
+
+	#Image {
+		width: 200px;
+		height: 200px;
+	}
+
+	p {
+		padding-top: 0;
+	}
+
+	#Section2 {
+	width: 455pt;
+	margin-left: 30pt;
+	margin-bottom: 100pt;
+	}
+
+	img, .banner, .container {
+		width: 290px;
+	}
+
+	.container {
+		margin-right: 0;
+		height: 170pt;
+	}
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+	body{
+		width:640px;
+		height: 1000pt;
+	}
+	.HeaderName{
+		width: 640px;
+		margin-left: 0;
+		left: 0;
+		text-align: center;
+	}
+	#LinkBox{
+		width: 100%;
+		float: left;
+		position: relative;
+		bottom: -40pt;
+	}
+	.link{
+		width: 33.3%;
+	}
+
+	Header {
+		width: 100%;
+		text-align: center;
+		height: 40pt;
+	}
+
+	#Section1 {
+		width: 85%;
+		margin-bottom: 0;
+	}
+
+	#Section2 {
+	width: 368pt;
+	margin-left: 30pt;
+	}
+
+	img, a.linkedTiles {
+		width: 490px;
+	}
+
+	#Image {
+		height: 490px;
+	}
+
+	.container {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 490px;
+		height: 350px;
+	}
+
+	.banner{
+		width:490px;
+	}
+	
+}
+
